@@ -1,15 +1,14 @@
 package com.company;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println(
-                "Witajcie! Kwadrat 10 to: " + policzKwadrat(10)
-        );
-        System.out.println("Policzone!");
-    }
-    public static int policzKwadrat(int liczba) {
-        System.out.println("Liczymy kwadrat liczby " + liczba);
-        return liczba * liczba;
+        var a = "Jest słonecznie";
+        var b = "Jest ciepło";
+        var c = "Ciśmienie w normie";
+
+        System.out.println(a + "\n" + b + "\n" + c + "\n" + Integer.sum(a.length() + b.length(), c.length()));
+
     }
 }
 
